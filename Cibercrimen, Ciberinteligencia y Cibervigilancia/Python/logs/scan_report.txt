@@ -1,0 +1,35 @@
+--------------------------------------------------------------------------------
+KASPERSKY ONLINE SCANNER 7.0 REPORT
+ Saturday, August 1, 2009
+ Operating System: Microsoft Windows XP Home Edition Service Pack 3 (build 2600)
+ Kaspersky Online Scanner  version: 7.0.26.13
+ Program database last update: Saturday, August 01, 2009 22:28:33
+ Records in database: 2570997
+--------------------------------------------------------------------------------
+
+Scan settings:
+	Scan using the following database: extended
+	Scan archives: no
+	Scan mail databases: no
+
+Scan area - My Computer:
+	C:\
+	D:\
+	E:\
+	G:\
+
+Scan statistics:
+	Files scanned: 155212
+	Threat name: 1
+	Infected objects: 1
+	Suspicious objects: 0
+	Duration of the scan: 01:58:20
+
+
+File name / Threat name / Threats count
+C:\RECYCLER\S-1-5-21-1953909206-3964214627-401889826-1008\Dc1.mpg	Infected: Trojan-Downloader.WMA.GetCodec.g	1
+C:\RECYCLER\S-1-5-21-1953909206-3964214627-401889826-1008\Dc2.mpg	Infected: Trojan-Downloader.WMA.GetCodec.h	1
+C:\Windows\System32\a234qwdwa2132143d.dll	Infected: Trojan-Downloader.Emotet.h	1
+
+The selected area was scanned.
+

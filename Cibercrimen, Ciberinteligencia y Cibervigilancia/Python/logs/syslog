@@ -1,0 +1,331 @@
+Aug  7 12:06:22 ubuntu1604 anacron[630]: Job `cron.daily' terminated
+Aug  7 12:06:22 ubuntu1604 anacron[630]: Normal exit (1 job run)
+Aug  7 12:06:32 ubuntu1604 NetworkManager[679]: <warn>  [1596816392.1245] device (veth3a907bd): failed to find device 34 'veth3a907bd' with udev
+Aug  7 12:06:32 ubuntu1604 NetworkManager[679]: <info>  [1596816392.1304] manager: (veth3a907bd): new Veth device (/org/freedesktop/NetworkManager/Devices/46)
+Aug  7 12:06:32 ubuntu1604 NetworkManager[679]: <warn>  [1596816392.1312] device (vethb86f004): failed to find device 35 'vethb86f004' with udev
+Aug  7 12:06:32 ubuntu1604 NetworkManager[679]: <info>  [1596816392.1407] manager: (vethb86f004): new Veth device (/org/freedesktop/NetworkManager/Devices/47)
+Aug  7 12:06:32 ubuntu1604 systemd-udevd[26444]: Could not generate persistent MAC address for veth3a907bd: No such file or directory
+Aug  7 12:06:32 ubuntu1604 systemd-udevd[26446]: Could not generate persistent MAC address for vethb86f004: No such file or directory
+Aug  7 12:06:32 ubuntu1604 kernel: [  331.345198] br-daf4f41d3b1d: port 1(vethb86f004) entered blocking state
+Aug  7 12:06:32 ubuntu1604 kernel: [  331.345200] br-daf4f41d3b1d: port 1(vethb86f004) entered disabled state
+Aug  7 12:06:32 ubuntu1604 kernel: [  331.348628] device vethb86f004 entered promiscuous mode
+Aug  7 12:06:32 ubuntu1604 kernel: [  331.348780] IPv6: ADDRCONF(NETDEV_UP): vethb86f004: link is not ready
+Aug  7 12:06:32 ubuntu1604 dockerd[1234]: time="2020-08-07T12:06:32.197515247-04:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug  7 12:06:32 ubuntu1604 dockerd[1234]: time="2020-08-07T12:06:32.198040884-04:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug  7 12:06:32 ubuntu1604 NetworkManager[679]: <info>  [1596816392.3288] devices added (path: /sys/devices/virtual/net/vethb86f004, iface: vethb86f004)
+Aug  7 12:06:32 ubuntu1604 NetworkManager[679]: <info>  [1596816392.3288] device added (path: /sys/devices/virtual/net/vethb86f004, iface: vethb86f004): no ifupdown configuration found.
+Aug  7 12:06:32 ubuntu1604 NetworkManager[679]: <info>  [1596816392.3502] devices added (path: /sys/devices/virtual/net/veth3a907bd, iface: veth3a907bd)
+Aug  7 12:06:32 ubuntu1604 NetworkManager[679]: <info>  [1596816392.3503] device added (path: /sys/devices/virtual/net/veth3a907bd, iface: veth3a907bd): no ifupdown configuration found.
+Aug  7 12:06:32 ubuntu1604 containerd[870]: time="2020-08-07T12:06:32.418709114-04:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/c0c3bd61093a57155e9960c431ab94159e07beb2fc449001dbbd16227d44a498/shim.sock" debug=false pid=26520
+Aug  7 12:06:33 ubuntu1604 NetworkManager[679]: <info>  [1596816393.7451] device (veth3a907bd): driver 'veth' does not support carrier detection.
+Aug  7 12:06:33 ubuntu1604 kernel: [  332.956462] eth0: renamed from veth3a907bd
+Aug  7 12:06:33 ubuntu1604 kernel: [  332.959890] IPv6: ADDRCONF(NETDEV_CHANGE): vethb86f004: link becomes ready
+Aug  7 12:06:33 ubuntu1604 kernel: [  332.959950] br-daf4f41d3b1d: port 1(vethb86f004) entered blocking state
+Aug  7 12:06:33 ubuntu1604 kernel: [  332.959951] br-daf4f41d3b1d: port 1(vethb86f004) entered forwarding state
+Aug  7 12:06:33 ubuntu1604 NetworkManager[679]: <info>  [1596816393.7685] device (vethb86f004): link connected
+Aug  7 12:06:33 ubuntu1604 NetworkManager[679]: <info>  [1596816393.7724] devices removed (path: /sys/devices/virtual/net/veth3a907bd, iface: veth3a907bd)
+Aug  7 12:06:34 ubuntu1604 containerd[870]: time="2020-08-07T12:06:34.183982526-04:00" level=info msg="shim reaped" id=c0c3bd61093a57155e9960c431ab94159e07beb2fc449001dbbd16227d44a498
+Aug  7 12:06:34 ubuntu1604 dockerd[1234]: time="2020-08-07T12:06:34.191739347-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug  7 12:06:34 ubuntu1604 kernel: [  333.692843] veth3a907bd: renamed from eth0
+Aug  7 12:06:34 ubuntu1604 kernel: [  333.696521] br-daf4f41d3b1d: port 1(vethb86f004) entered disabled state
+Aug  7 12:06:34 ubuntu1604 NetworkManager[679]: <warn>  [1596816394.5059] device (veth3a907bd): failed to find device 34 'veth3a907bd' with udev
+Aug  7 12:06:34 ubuntu1604 kernel: [  333.732029] br-daf4f41d3b1d: port 1(vethb86f004) entered disabled state
+Aug  7 12:06:34 ubuntu1604 kernel: [  333.735931] device vethb86f004 left promiscuous mode
+Aug  7 12:06:34 ubuntu1604 kernel: [  333.735936] br-daf4f41d3b1d: port 1(vethb86f004) entered disabled state
+Aug  7 12:06:34 ubuntu1604 NetworkManager[679]: <info>  [1596816394.5771] manager: (veth3a907bd): new Veth device (/org/freedesktop/NetworkManager/Devices/48)
+Aug  7 12:06:34 ubuntu1604 NetworkManager[679]: <info>  [1596816394.5862] device (vethb86f004): link disconnected
+Aug  7 12:06:34 ubuntu1604 NetworkManager[679]: <info>  [1596816394.6050] devices removed (path: /sys/devices/virtual/net/vethb86f004, iface: vethb86f004)
+Aug  7 12:06:34 ubuntu1604 NetworkManager[679]: <info>  [1596816394.6381] device (veth3a907bd): driver 'veth' does not support carrier detection.
+Aug  7 12:06:34 ubuntu1604 NetworkManager[679]: <info>  [1596816394.6654] device (vethb86f004): driver 'veth' does not support carrier detection.
+Aug  7 12:06:34 ubuntu1604 NetworkManager[679]: <info>  [1596816394.7358] devices added (path: /sys/devices/virtual/net/veth3a907bd, iface: veth3a907bd)
+Aug  7 12:06:34 ubuntu1604 NetworkManager[679]: <info>  [1596816394.7395] device added (path: /sys/devices/virtual/net/veth3a907bd, iface: veth3a907bd): no ifupdown configuration found.
+Aug  7 12:06:34 ubuntu1604 NetworkManager[679]: <info>  [1596816394.7673] devices removed (path: /sys/devices/virtual/net/veth3a907bd, iface: veth3a907bd)
+Aug  7 12:06:56 ubuntu1604 systemd[1]: Started High-performance, schema-free document-oriented database.
+Aug  7 12:06:57 ubuntu1604 systemd[1]: mongodb.service: Main process exited, code=exited, status=48/n/a
+Aug  7 12:06:57 ubuntu1604 systemd[1]: mongodb.service: Unit entered failed state.
+Aug  7 12:06:57 ubuntu1604 systemd[1]: mongodb.service: Failed with result 'exit-code'.
+Aug  7 12:07:34 ubuntu1604 NetworkManager[679]: <warn>  [1596816454.2540] device (vethd5a349a): failed to find device 36 'vethd5a349a' with udev
+Aug  7 12:07:34 ubuntu1604 kernel: [  393.453941] br-daf4f41d3b1d: port 1(veth5b0ff06) entered blocking state
+Aug  7 12:07:34 ubuntu1604 kernel: [  393.453943] br-daf4f41d3b1d: port 1(veth5b0ff06) entered disabled state
+Aug  7 12:07:34 ubuntu1604 kernel: [  393.454186] device veth5b0ff06 entered promiscuous mode
+Aug  7 12:07:34 ubuntu1604 kernel: [  393.454369] IPv6: ADDRCONF(NETDEV_UP): veth5b0ff06: link is not ready
+Aug  7 12:07:34 ubuntu1604 systemd-udevd[27710]: Could not generate persistent MAC address for veth5b0ff06: No such file or directory
+Aug  7 12:07:34 ubuntu1604 NetworkManager[679]: <info>  [1596816454.2622] manager: (vethd5a349a): new Veth device (/org/freedesktop/NetworkManager/Devices/49)
+Aug  7 12:07:34 ubuntu1604 systemd-udevd[27708]: Could not generate persistent MAC address for vethd5a349a: No such file or directory
+Aug  7 12:07:34 ubuntu1604 NetworkManager[679]: <warn>  [1596816454.2646] device (veth5b0ff06): failed to find device 37 'veth5b0ff06' with udev
+Aug  7 12:07:34 ubuntu1604 NetworkManager[679]: <info>  [1596816454.2723] manager: (veth5b0ff06): new Veth device (/org/freedesktop/NetworkManager/Devices/50)
+Aug  7 12:07:34 ubuntu1604 NetworkManager[679]: <info>  [1596816454.5433] devices added (path: /sys/devices/virtual/net/vethd5a349a, iface: vethd5a349a)
+Aug  7 12:07:34 ubuntu1604 NetworkManager[679]: <info>  [1596816454.5433] device added (path: /sys/devices/virtual/net/vethd5a349a, iface: vethd5a349a): no ifupdown configuration found.
+Aug  7 12:07:34 ubuntu1604 dockerd[1234]: time="2020-08-07T12:07:34.669749674-04:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug  7 12:07:34 ubuntu1604 dockerd[1234]: time="2020-08-07T12:07:34.669777533-04:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug  7 12:07:34 ubuntu1604 NetworkManager[679]: <info>  [1596816454.5505] devices added (path: /sys/devices/virtual/net/veth5b0ff06, iface: veth5b0ff06)
+Aug  7 12:07:34 ubuntu1604 NetworkManager[679]: <info>  [1596816454.5505] device added (path: /sys/devices/virtual/net/veth5b0ff06, iface: veth5b0ff06): no ifupdown configuration found.
+Aug  7 12:07:34 ubuntu1604 gnome-session[4317]: Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Aug  7 12:07:34 ubuntu1604 containerd[870]: time="2020-08-07T12:07:34.942117102-04:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/c0c3bd61093a57155e9960c431ab94159e07beb2fc449001dbbd16227d44a498/shim.sock" debug=false pid=27767
+Aug  7 12:07:35 ubuntu1604 NetworkManager[679]: <info>  [1596816455.6475] device (vethd5a349a): driver 'veth' does not support carrier detection.
+Aug  7 12:07:35 ubuntu1604 kernel: [  394.851066] eth0: renamed from vethd5a349a
+Aug  7 12:07:35 ubuntu1604 NetworkManager[679]: <info>  [1596816455.6658] device (veth5b0ff06): link connected
+Aug  7 12:07:35 ubuntu1604 kernel: [  394.857702] IPv6: ADDRCONF(NETDEV_CHANGE): veth5b0ff06: link becomes ready
+Aug  7 12:07:35 ubuntu1604 kernel: [  394.857747] br-daf4f41d3b1d: port 1(veth5b0ff06) entered blocking state
+Aug  7 12:07:35 ubuntu1604 kernel: [  394.857749] br-daf4f41d3b1d: port 1(veth5b0ff06) entered forwarding state
+Aug  7 12:07:35 ubuntu1604 NetworkManager[679]: <info>  [1596816455.6698] devices removed (path: /sys/devices/virtual/net/vethd5a349a, iface: vethd5a349a)
+Aug  7 12:07:36 ubuntu1604 containerd[870]: time="2020-08-07T12:07:36.008439828-04:00" level=info msg="shim reaped" id=c0c3bd61093a57155e9960c431ab94159e07beb2fc449001dbbd16227d44a498
+Aug  7 12:07:36 ubuntu1604 dockerd[1234]: time="2020-08-07T12:07:36.015034666-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug  7 12:07:36 ubuntu1604 NetworkManager[679]: <info>  [1596816456.2193] device (veth5b0ff06): link disconnected
+Aug  7 12:07:36 ubuntu1604 kernel: [  395.410901] br-daf4f41d3b1d: port 1(veth5b0ff06) entered disabled state
+Aug  7 12:07:36 ubuntu1604 kernel: [  395.418390] vethd5a349a: renamed from eth0
+Aug  7 12:07:36 ubuntu1604 NetworkManager[679]: <warn>  [1596816456.2340] device (vethd5a349a): failed to find device 36 'vethd5a349a' with udev
+Aug  7 12:07:36 ubuntu1604 NetworkManager[679]: <info>  [1596816456.2397] manager: (vethd5a349a): new Veth device (/org/freedesktop/NetworkManager/Devices/51)
+Aug  7 12:07:36 ubuntu1604 kernel: [  395.455359] br-daf4f41d3b1d: port 1(veth5b0ff06) entered disabled state
+Aug  7 12:07:36 ubuntu1604 kernel: [  395.460587] device veth5b0ff06 left promiscuous mode
+Aug  7 12:07:36 ubuntu1604 kernel: [  395.460593] br-daf4f41d3b1d: port 1(veth5b0ff06) entered disabled state
+Aug  7 12:07:36 ubuntu1604 NetworkManager[679]: <info>  [1596816456.3478] device (vethd5a349a): driver 'veth' does not support carrier detection.
+Aug  7 12:07:36 ubuntu1604 NetworkManager[679]: <info>  [1596816456.3563] device (veth5b0ff06): driver 'veth' does not support carrier detection.
+Aug  7 12:07:36 ubuntu1604 NetworkManager[679]: <info>  [1596816456.4780] devices removed (path: /sys/devices/virtual/net/veth5b0ff06, iface: veth5b0ff06)
+Aug  7 12:07:36 ubuntu1604 NetworkManager[679]: <info>  [1596816456.5068] devices added (path: /sys/devices/virtual/net/vethd5a349a, iface: vethd5a349a)
+Aug  7 12:07:36 ubuntu1604 NetworkManager[679]: <info>  [1596816456.5069] device added (path: /sys/devices/virtual/net/vethd5a349a, iface: vethd5a349a): no ifupdown configuration found.
+Aug  7 12:07:36 ubuntu1604 NetworkManager[679]: <info>  [1596816456.5800] devices removed (path: /sys/devices/virtual/net/vethd5a349a, iface: vethd5a349a)
+Aug  7 12:07:45 ubuntu1604 systemd[1]: Reloading.
+Aug  7 12:07:46 ubuntu1604 systemd[1]: Started CUPS Scheduler.
+Aug  7 12:07:46 ubuntu1604 systemd[1]: Started ACPI event daemon.
+Aug  7 12:08:22 ubuntu1604 systemd[1]: Started High-performance, schema-free document-oriented database.
+Aug  7 12:08:23 ubuntu1604 systemd[1]: mongodb.service: Main process exited, code=exited, status=48/n/a
+Aug  7 12:08:23 ubuntu1604 systemd[1]: mongodb.service: Unit entered failed state.
+Aug  7 12:08:23 ubuntu1604 systemd[1]: mongodb.service: Failed with result 'exit-code'.
+Aug  7 12:08:36 ubuntu1604 kernel: [  455.252774] br-daf4f41d3b1d: port 1(veth8357547) entered blocking state
+Aug  7 12:08:36 ubuntu1604 kernel: [  455.252776] br-daf4f41d3b1d: port 1(veth8357547) entered disabled state
+Aug  7 12:08:36 ubuntu1604 kernel: [  455.254016] device veth8357547 entered promiscuous mode
+Aug  7 12:08:36 ubuntu1604 NetworkManager[679]: <warn>  [1596816516.0631] device (veth87d63b4): failed to find device 38 'veth87d63b4' with udev
+Aug  7 12:08:36 ubuntu1604 NetworkManager[679]: <info>  [1596816516.0654] manager: (veth87d63b4): new Veth device (/org/freedesktop/NetworkManager/Devices/52)
+Aug  7 12:08:36 ubuntu1604 systemd-udevd[29443]: Could not generate persistent MAC address for veth87d63b4: No such file or directory
+Aug  7 12:08:36 ubuntu1604 kernel: [  455.259602] IPv6: ADDRCONF(NETDEV_UP): veth8357547: link is not ready
+Aug  7 12:08:36 ubuntu1604 systemd-udevd[29444]: Could not generate persistent MAC address for veth8357547: No such file or directory
+Aug  7 12:08:36 ubuntu1604 dockerd[1234]: time="2020-08-07T12:08:36.074215512-04:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug  7 12:08:36 ubuntu1604 NetworkManager[679]: <warn>  [1596816516.0747] device (veth8357547): failed to find device 39 'veth8357547' with udev
+Aug  7 12:08:36 ubuntu1604 dockerd[1234]: time="2020-08-07T12:08:36.075709719-04:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug  7 12:08:36 ubuntu1604 NetworkManager[679]: <info>  [1596816516.0817] manager: (veth8357547): new Veth device (/org/freedesktop/NetworkManager/Devices/53)
+Aug  7 12:08:36 ubuntu1604 NetworkManager[679]: <info>  [1596816516.1609] devices added (path: /sys/devices/virtual/net/veth87d63b4, iface: veth87d63b4)
+Aug  7 12:08:36 ubuntu1604 NetworkManager[679]: <info>  [1596816516.1609] device added (path: /sys/devices/virtual/net/veth87d63b4, iface: veth87d63b4): no ifupdown configuration found.
+Aug  7 12:08:36 ubuntu1604 NetworkManager[679]: <info>  [1596816516.1711] devices added (path: /sys/devices/virtual/net/veth8357547, iface: veth8357547)
+Aug  7 12:08:36 ubuntu1604 NetworkManager[679]: <info>  [1596816516.1711] device added (path: /sys/devices/virtual/net/veth8357547, iface: veth8357547): no ifupdown configuration found.
+Aug  7 12:08:36 ubuntu1604 containerd[870]: time="2020-08-07T12:08:36.246506557-04:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/c0c3bd61093a57155e9960c431ab94159e07beb2fc449001dbbd16227d44a498/shim.sock" debug=false pid=29496
+Aug  7 12:08:36 ubuntu1604 NetworkManager[679]: <info>  [1596816516.7444] device (veth87d63b4): driver 'veth' does not support carrier detection.
+Aug  7 12:08:36 ubuntu1604 kernel: [  455.946885] eth0: renamed from veth87d63b4
+Aug  7 12:08:36 ubuntu1604 NetworkManager[679]: <info>  [1596816516.7595] device (veth8357547): link connected
+Aug  7 12:08:36 ubuntu1604 kernel: [  455.950391] IPv6: ADDRCONF(NETDEV_CHANGE): veth8357547: link becomes ready
+Aug  7 12:08:36 ubuntu1604 kernel: [  455.950439] br-daf4f41d3b1d: port 1(veth8357547) entered blocking state
+Aug  7 12:08:36 ubuntu1604 kernel: [  455.950440] br-daf4f41d3b1d: port 1(veth8357547) entered forwarding state
+Aug  7 12:08:36 ubuntu1604 NetworkManager[679]: <info>  [1596816516.7749] devices removed (path: /sys/devices/virtual/net/veth87d63b4, iface: veth87d63b4)
+Aug  7 12:08:37 ubuntu1604 containerd[870]: time="2020-08-07T12:08:37.014741328-04:00" level=info msg="shim reaped" id=c0c3bd61093a57155e9960c431ab94159e07beb2fc449001dbbd16227d44a498
+Aug  7 12:08:37 ubuntu1604 dockerd[1234]: time="2020-08-07T12:08:37.016904329-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug  7 12:08:37 ubuntu1604 kernel: [  456.267788] br-daf4f41d3b1d: port 1(veth8357547) entered disabled state
+Aug  7 12:08:37 ubuntu1604 NetworkManager[679]: <info>  [1596816517.0759] device (veth8357547): link disconnected
+Aug  7 12:08:37 ubuntu1604 kernel: [  456.271590] veth87d63b4: renamed from eth0
+Aug  7 12:08:37 ubuntu1604 NetworkManager[679]: <warn>  [1596816517.0852] device (veth87d63b4): failed to find device 38 'veth87d63b4' with udev
+Aug  7 12:08:37 ubuntu1604 NetworkManager[679]: <info>  [1596816517.0877] manager: (veth87d63b4): new Veth device (/org/freedesktop/NetworkManager/Devices/54)
+Aug  7 12:08:37 ubuntu1604 kernel: [  456.297046] br-daf4f41d3b1d: port 1(veth8357547) entered disabled state
+Aug  7 12:08:37 ubuntu1604 kernel: [  456.307292] device veth8357547 left promiscuous mode
+Aug  7 12:08:37 ubuntu1604 kernel: [  456.307297] br-daf4f41d3b1d: port 1(veth8357547) entered disabled state
+Aug  7 12:08:37 ubuntu1604 NetworkManager[679]: <info>  [1596816517.1241] device (veth87d63b4): driver 'veth' does not support carrier detection.
+Aug  7 12:08:37 ubuntu1604 NetworkManager[679]: <info>  [1596816517.1267] device (veth8357547): driver 'veth' does not support carrier detection.
+Aug  7 12:08:37 ubuntu1604 NetworkManager[679]: <info>  [1596816517.2085] devices removed (path: /sys/devices/virtual/net/veth8357547, iface: veth8357547)
+Aug  7 12:08:37 ubuntu1604 NetworkManager[679]: <info>  [1596816517.2170] devices added (path: /sys/devices/virtual/net/veth87d63b4, iface: veth87d63b4)
+Aug  7 12:08:37 ubuntu1604 NetworkManager[679]: <info>  [1596816517.2170] device added (path: /sys/devices/virtual/net/veth87d63b4, iface: veth87d63b4): no ifupdown configuration found.
+Aug  7 12:08:37 ubuntu1604 NetworkManager[679]: <info>  [1596816517.2424] devices removed (path: /sys/devices/virtual/net/veth87d63b4, iface: veth87d63b4)
+Aug  7 12:08:51 ubuntu1604 kernel: [  471.148959] usb 1-1: USB disconnect, device number 2
+Aug  7 12:08:52 ubuntu1604 kernel: [  471.474122] 16:08:52.095886 control  Session 0 is about to close ...
+Aug  7 12:08:52 ubuntu1604 kernel: [  471.542735] 16:08:52.349920 control  Stopping all guest processes ...
+Aug  7 12:08:52 ubuntu1604 kernel: [  471.543132] 16:08:52.350260 control  Closing all guest files ...
+Aug  7 12:08:52 ubuntu1604 kernel: [  471.923663] usb 1-1: new full-speed USB device number 3 using ohci-pci
+Aug  9 03:13:18 ubuntu1604 systemd[1]: Time has been changed
+Aug  9 03:13:18 ubuntu1604 kernel: [  472.176586] 07:13:18.950550 timesync vgsvcTimeSyncWorker: Radical host time change: 140 676 025 000 000ns (HostNow=1 596 957 198 936 000 000 ns HostLast=1 596 816 522 911 000 000 ns)
+Aug  9 03:13:18 ubuntu1604 systemd[3237]: Time has been changed
+Aug  9 03:13:19 ubuntu1604 kernel: [  472.359311] e1000: enp0s3 NIC Link is Down
+Aug  9 03:13:19 ubuntu1604 systemd[1]: Starting Daily apt download activities...
+Aug  9 03:13:19 ubuntu1604 kernel: [  472.409167] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021
+Aug  9 03:13:19 ubuntu1604 kernel: [  472.409170] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Aug  9 03:13:19 ubuntu1604 kernel: [  472.409171] usb 1-1: Product: USB Tablet
+Aug  9 03:13:19 ubuntu1604 kernel: [  472.409172] usb 1-1: Manufacturer: VirtualBox
+Aug  9 03:13:19 ubuntu1604 kernel: [  472.489588] usb 1-1: can't set config #1, error -32
+Aug  9 03:13:19 ubuntu1604 systemd[1]: Starting Message of the Day...
+Aug  9 03:13:19 ubuntu1604 NetworkManager[679]: <info>  [1596957199.4634] device (enp0s3): link disconnected (deferring action for 4 seconds)
+Aug  9 03:13:19 ubuntu1604 mtp-probe: checking bus 1, device 3: "/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1"
+Aug  9 03:13:19 ubuntu1604 mtp-probe: bus: 1, device: 3 was not an MTP device
+Aug  9 03:13:21 ubuntu1604 kernel: [  474.372612] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Aug  9 03:13:21 ubuntu1604 NetworkManager[679]: <info>  [1596957201.1590] device (enp0s3): link connected
+Aug  9 03:13:21 ubuntu1604 NetworkManager[679]: <info>  [1596957201.2934] device (enp0s3): DHCPv4 lease renewal requested
+Aug  9 03:13:21 ubuntu1604 NetworkManager[679]: <info>  [1596957201.4950] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 908
+Aug  9 03:13:21 ubuntu1604 NetworkManager[679]: <info>  [1596957201.4951] dhcp4 (enp0s3): state changed bound -> done
+Aug  9 03:13:21 ubuntu1604 NetworkManager[679]: <info>  [1596957201.5091] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Aug  9 03:13:21 ubuntu1604 NetworkManager[679]: <info>  [1596957201.6479] dhcp4 (enp0s3): dhclient started with pid 29755
+Aug  9 03:13:22 ubuntu1604 dhclient[29755]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3 (xid=0x617519)
+Aug  9 03:13:24 ubuntu1604 dhclient[29755]: DHCPREQUEST of 192.168.1.135 on enp0s3 to 255.255.255.255 port 67 (xid=0x19756100)
+Aug  9 03:13:24 ubuntu1604 dhclient[29755]: DHCPOFFER of 192.168.1.135 from 192.168.1.1
+Aug  9 03:13:24 ubuntu1604 dhclient[29755]: DHCPACK of 192.168.1.135 from 192.168.1.1
+Aug  9 03:13:24 ubuntu1604 NetworkManager[679]: <info>  [1596957204.1718]   address 192.168.1.135
+Aug  9 03:13:24 ubuntu1604 NetworkManager[679]: <info>  [1596957204.1785]   plen 24 (255.255.255.0)
+Aug  9 03:13:24 ubuntu1604 NetworkManager[679]: <info>  [1596957204.1792]   gateway 192.168.1.1
+Aug  9 03:13:24 ubuntu1604 NetworkManager[679]: <info>  [1596957204.1796]   server identifier 192.168.1.1
+Aug  9 03:13:24 ubuntu1604 NetworkManager[679]: <info>  [1596957204.1796]   lease time 259200
+Aug  9 03:13:24 ubuntu1604 NetworkManager[679]: <info>  [1596957204.1797]   nameserver '212.231.6.7'
+Aug  9 03:13:24 ubuntu1604 NetworkManager[679]: <info>  [1596957204.1797]   nameserver '46.6.113.34'
+Aug  9 03:13:24 ubuntu1604 NetworkManager[679]: <info>  [1596957204.1797]   domain name 'Home'
+Aug  9 03:13:24 ubuntu1604 NetworkManager[679]: <info>  [1596957204.1797] dhcp4 (enp0s3): state changed unknown -> bound
+Aug  9 03:13:24 ubuntu1604 dbus[651]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Aug  9 03:13:24 ubuntu1604 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Aug  9 03:13:24 ubuntu1604 avahi-daemon[629]: Withdrawing address record for 192.168.1.134 on enp0s3.
+Aug  9 03:13:24 ubuntu1604 avahi-daemon[629]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 192.168.1.134.
+Aug  9 03:13:24 ubuntu1604 dhclient[29755]: bound to 192.168.1.135 -- renewal in 107750 seconds.
+Aug  9 03:13:24 ubuntu1604 avahi-daemon[629]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Aug  9 03:13:24 ubuntu1604 avahi-daemon[629]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 192.168.1.135.
+Aug  9 03:13:24 ubuntu1604 avahi-daemon[629]: New relevant interface enp0s3.IPv4 for mDNS.
+Aug  9 03:13:24 ubuntu1604 avahi-daemon[629]: Registering new address record for 192.168.1.135 on enp0s3.IPv4.
+Aug  9 03:13:24 ubuntu1604 dbus[651]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug  9 03:13:24 ubuntu1604 systemd[1]: Started Network Manager Script Dispatcher Service.
+Aug  9 03:13:24 ubuntu1604 nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Aug  9 03:13:24 ubuntu1604 nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Aug  9 03:13:27 ubuntu1604 50-motd-news[29678]:  * Are you ready for Kubernetes 1.19? It's nearly here! Try RC3 with
+Aug  9 03:13:27 ubuntu1604 50-motd-news[29678]:    sudo snap install microk8s --channel=1.19/candidate --classic
+Aug  9 03:13:27 ubuntu1604 50-motd-news[29678]:    https://microk8s.io/ has docs and details.
+Aug  9 03:13:27 ubuntu1604 systemd[1]: Started Message of the Day.
+Aug  9 03:13:28 ubuntu1604 kernel: [  482.176969] 07:13:28.950951 timesync vgsvcTimeSyncWorker: Radical guest time change: 140 675 981 490 000ns (GuestNow=1 596 957 208 950 937 000 ns GuestLast=1 596 816 532 969 447 000 ns fSetTimeLastLoop=true )
+Aug  9 03:14:03 ubuntu1604 kernel: [  516.266176] br-daf4f41d3b1d: port 1(veth5415620) entered blocking state
+Aug  9 03:14:03 ubuntu1604 kernel: [  516.266178] br-daf4f41d3b1d: port 1(veth5415620) entered disabled state
+Aug  9 03:14:03 ubuntu1604 kernel: [  516.267336] device veth5415620 entered promiscuous mode
+Aug  9 03:14:03 ubuntu1604 NetworkManager[679]: <warn>  [1596957243.0472] device (veth512f118): failed to find device 40 'veth512f118' with udev
+Aug  9 03:14:03 ubuntu1604 kernel: [  516.286599] IPv6: ADDRCONF(NETDEV_UP): veth5415620: link is not ready
+Aug  9 03:14:03 ubuntu1604 NetworkManager[679]: <info>  [1596957243.0520] manager: (veth512f118): new Veth device (/org/freedesktop/NetworkManager/Devices/55)
+Aug  9 03:14:03 ubuntu1604 systemd-udevd[30431]: Could not generate persistent MAC address for veth512f118: No such file or directory
+Aug  9 03:14:03 ubuntu1604 NetworkManager[679]: <warn>  [1596957243.0666] device (veth5415620): failed to find device 41 'veth5415620' with udev
+Aug  9 03:14:03 ubuntu1604 systemd-udevd[30432]: Could not generate persistent MAC address for veth5415620: No such file or directory
+Aug  9 03:14:03 ubuntu1604 NetworkManager[679]: <info>  [1596957243.0811] manager: (veth5415620): new Veth device (/org/freedesktop/NetworkManager/Devices/56)
+Aug  9 03:14:03 ubuntu1604 dockerd[1234]: time="2020-08-09T03:14:03.094931130-04:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug  9 03:14:03 ubuntu1604 dockerd[1234]: time="2020-08-09T03:14:03.094965874-04:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug  9 03:14:03 ubuntu1604 NetworkManager[679]: <info>  [1596957243.3791] devices added (path: /sys/devices/virtual/net/veth5415620, iface: veth5415620)
+Aug  9 03:14:03 ubuntu1604 NetworkManager[679]: <info>  [1596957243.3791] device added (path: /sys/devices/virtual/net/veth5415620, iface: veth5415620): no ifupdown configuration found.
+Aug  9 03:14:03 ubuntu1604 NetworkManager[679]: <info>  [1596957243.4114] devices added (path: /sys/devices/virtual/net/veth512f118, iface: veth512f118)
+Aug  9 03:14:03 ubuntu1604 NetworkManager[679]: <info>  [1596957243.4115] device added (path: /sys/devices/virtual/net/veth512f118, iface: veth512f118): no ifupdown configuration found.
+Aug  9 03:14:03 ubuntu1604 containerd[870]: time="2020-08-09T03:14:03.563206498-04:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/c0c3bd61093a57155e9960c431ab94159e07beb2fc449001dbbd16227d44a498/shim.sock" debug=false pid=30482
+Aug  9 03:14:05 ubuntu1604 kernel: [  518.680776] eth0: renamed from veth512f118
+Aug  9 03:14:05 ubuntu1604 NetworkManager[679]: <info>  [1596957245.4599] device (veth512f118): driver 'veth' does not support carrier detection.
+Aug  9 03:14:05 ubuntu1604 kernel: [  518.684801] IPv6: ADDRCONF(NETDEV_CHANGE): veth5415620: link becomes ready
+Aug  9 03:14:05 ubuntu1604 kernel: [  518.684865] br-daf4f41d3b1d: port 1(veth5415620) entered blocking state
+Aug  9 03:14:05 ubuntu1604 kernel: [  518.684867] br-daf4f41d3b1d: port 1(veth5415620) entered forwarding state
+Aug  9 03:14:05 ubuntu1604 NetworkManager[679]: <info>  [1596957245.4688] device (veth5415620): link connected
+Aug  9 03:14:05 ubuntu1604 NetworkManager[679]: <info>  [1596957245.5046] devices removed (path: /sys/devices/virtual/net/veth512f118, iface: veth512f118)
+Aug  9 03:14:06 ubuntu1604 containerd[870]: time="2020-08-09T03:14:06.146361980-04:00" level=info msg="shim reaped" id=c0c3bd61093a57155e9960c431ab94159e07beb2fc449001dbbd16227d44a498
+Aug  9 03:14:06 ubuntu1604 dockerd[1234]: time="2020-08-09T03:14:06.162300020-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug  9 03:14:06 ubuntu1604 kernel: [  519.519843] br-daf4f41d3b1d: port 1(veth5415620) entered disabled state
+Aug  9 03:14:06 ubuntu1604 NetworkManager[679]: <info>  [1596957246.2956] device (veth5415620): link disconnected
+Aug  9 03:14:06 ubuntu1604 kernel: [  519.524261] veth512f118: renamed from eth0
+Aug  9 03:14:06 ubuntu1604 NetworkManager[679]: <warn>  [1596957246.3122] device (veth512f118): failed to find device 40 'veth512f118' with udev
+Aug  9 03:14:06 ubuntu1604 NetworkManager[679]: <info>  [1596957246.3234] manager: (veth512f118): new Veth device (/org/freedesktop/NetworkManager/Devices/57)
+Aug  9 03:14:06 ubuntu1604 kernel: [  519.579794] br-daf4f41d3b1d: port 1(veth5415620) entered disabled state
+Aug  9 03:14:06 ubuntu1604 kernel: [  519.585509] device veth5415620 left promiscuous mode
+Aug  9 03:14:06 ubuntu1604 kernel: [  519.585514] br-daf4f41d3b1d: port 1(veth5415620) entered disabled state
+Aug  9 03:14:06 ubuntu1604 NetworkManager[679]: <info>  [1596957246.4917] device (veth512f118): driver 'veth' does not support carrier detection.
+Aug  9 03:14:06 ubuntu1604 NetworkManager[679]: <info>  [1596957246.4926] device (veth5415620): driver 'veth' does not support carrier detection.
+Aug  9 03:14:06 ubuntu1604 NetworkManager[679]: <info>  [1596957246.5308] devices removed (path: /sys/devices/virtual/net/veth5415620, iface: veth5415620)
+Aug  9 03:14:06 ubuntu1604 NetworkManager[679]: <info>  [1596957246.5425] devices added (path: /sys/devices/virtual/net/veth512f118, iface: veth512f118)
+Aug  9 03:14:06 ubuntu1604 NetworkManager[679]: <info>  [1596957246.5431] device added (path: /sys/devices/virtual/net/veth512f118, iface: veth512f118): no ifupdown configuration found.
+Aug  9 03:14:06 ubuntu1604 NetworkManager[679]: <info>  [1596957246.5869] devices removed (path: /sys/devices/virtual/net/veth512f118, iface: veth512f118)
+Aug  9 03:14:08 ubuntu1604 org.gnome.Terminal[3641]: (gnome-terminal-server:30650): GLib-GIO-WARNING **: Failed to parse translated string '«Sin nombre»' for key 'visible-name' in schema 'org.gnome.Terminal.Legacy.Profile': 0:expected value
+Aug  9 03:14:08 ubuntu1604 org.gnome.Terminal[3641]: (gnome-terminal-server:30650): GLib-GIO-WARNING **: Using untranslated default instead.
+Aug  9 03:14:16 ubuntu1604 systemd[1]: Started Daily apt download activities.
+Aug  9 03:14:16 ubuntu1604 systemd[1]: Starting Daily apt upgrade and clean activities...
+Aug  9 03:14:28 ubuntu1604 systemd[1]: Started Daily apt upgrade and clean activities.
+Aug  9 03:15:06 ubuntu1604 NetworkManager[679]: <warn>  [1596957306.2409] device (veth6560e7e): failed to find device 42 'veth6560e7e' with udev
+Aug  9 03:15:06 ubuntu1604 systemd-udevd[30893]: Could not generate persistent MAC address for veth13eafd0: No such file or directory
+Aug  9 03:15:06 ubuntu1604 NetworkManager[679]: <info>  [1596957306.2456] manager: (veth6560e7e): new Veth device (/org/freedesktop/NetworkManager/Devices/58)
+Aug  9 03:15:06 ubuntu1604 systemd-udevd[30891]: Could not generate persistent MAC address for veth6560e7e: No such file or directory
+Aug  9 03:15:06 ubuntu1604 NetworkManager[679]: <warn>  [1596957306.2492] device (veth13eafd0): failed to find device 43 'veth13eafd0' with udev
+Aug  9 03:15:06 ubuntu1604 kernel: [  579.474842] br-daf4f41d3b1d: port 1(veth13eafd0) entered blocking state
+Aug  9 03:15:06 ubuntu1604 kernel: [  579.474845] br-daf4f41d3b1d: port 1(veth13eafd0) entered disabled state
+Aug  9 03:15:06 ubuntu1604 kernel: [  579.476689] device veth13eafd0 entered promiscuous mode
+Aug  9 03:15:06 ubuntu1604 kernel: [  579.477108] IPv6: ADDRCONF(NETDEV_UP): veth13eafd0: link is not ready
+Aug  9 03:15:06 ubuntu1604 NetworkManager[679]: <info>  [1596957306.2556] manager: (veth13eafd0): new Veth device (/org/freedesktop/NetworkManager/Devices/59)
+Aug  9 03:15:06 ubuntu1604 dockerd[1234]: time="2020-08-09T03:15:06.261273258-04:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug  9 03:15:06 ubuntu1604 dockerd[1234]: time="2020-08-09T03:15:06.261590579-04:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug  9 03:15:06 ubuntu1604 NetworkManager[679]: <info>  [1596957306.3486] devices added (path: /sys/devices/virtual/net/veth13eafd0, iface: veth13eafd0)
+Aug  9 03:15:06 ubuntu1604 NetworkManager[679]: <info>  [1596957306.3486] device added (path: /sys/devices/virtual/net/veth13eafd0, iface: veth13eafd0): no ifupdown configuration found.
+Aug  9 03:15:06 ubuntu1604 NetworkManager[679]: <info>  [1596957306.3627] devices added (path: /sys/devices/virtual/net/veth6560e7e, iface: veth6560e7e)
+Aug  9 03:15:06 ubuntu1604 NetworkManager[679]: <info>  [1596957306.3627] device added (path: /sys/devices/virtual/net/veth6560e7e, iface: veth6560e7e): no ifupdown configuration found.
+Aug  9 03:15:06 ubuntu1604 containerd[870]: time="2020-08-09T03:15:06.414568642-04:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/c0c3bd61093a57155e9960c431ab94159e07beb2fc449001dbbd16227d44a498/shim.sock" debug=false pid=30945
+Aug  9 03:15:06 ubuntu1604 NetworkManager[679]: <info>  [1596957306.7590] device (veth6560e7e): driver 'veth' does not support carrier detection.
+Aug  9 03:15:06 ubuntu1604 NetworkManager[679]: <info>  [1596957306.7722] device (veth13eafd0): link connected
+Aug  9 03:15:06 ubuntu1604 kernel: [  579.996259] eth0: renamed from veth6560e7e
+Aug  9 03:15:06 ubuntu1604 kernel: [  579.996887] IPv6: ADDRCONF(NETDEV_CHANGE): veth13eafd0: link becomes ready
+Aug  9 03:15:06 ubuntu1604 kernel: [  579.996941] br-daf4f41d3b1d: port 1(veth13eafd0) entered blocking state
+Aug  9 03:15:06 ubuntu1604 kernel: [  579.996943] br-daf4f41d3b1d: port 1(veth13eafd0) entered forwarding state
+Aug  9 03:15:06 ubuntu1604 NetworkManager[679]: <info>  [1596957306.7764] devices removed (path: /sys/devices/virtual/net/veth6560e7e, iface: veth6560e7e)
+Aug  9 03:15:07 ubuntu1604 containerd[870]: time="2020-08-09T03:15:07.060284349-04:00" level=info msg="shim reaped" id=c0c3bd61093a57155e9960c431ab94159e07beb2fc449001dbbd16227d44a498
+Aug  9 03:15:07 ubuntu1604 dockerd[1234]: time="2020-08-09T03:15:07.069396420-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug  9 03:15:07 ubuntu1604 NetworkManager[679]: <info>  [1596957307.1500] device (veth13eafd0): link disconnected
+Aug  9 03:15:07 ubuntu1604 kernel: [  580.375340] br-daf4f41d3b1d: port 1(veth13eafd0) entered disabled state
+Aug  9 03:15:07 ubuntu1604 kernel: [  580.378777] veth6560e7e: renamed from eth0
+Aug  9 03:15:07 ubuntu1604 NetworkManager[679]: <warn>  [1596957307.1603] device (veth6560e7e): failed to find device 42 'veth6560e7e' with udev
+Aug  9 03:15:07 ubuntu1604 NetworkManager[679]: <info>  [1596957307.1641] manager: (veth6560e7e): new Veth device (/org/freedesktop/NetworkManager/Devices/60)
+Aug  9 03:15:07 ubuntu1604 kernel: [  580.413102] br-daf4f41d3b1d: port 1(veth13eafd0) entered disabled state
+Aug  9 03:15:07 ubuntu1604 kernel: [  580.423122] device veth13eafd0 left promiscuous mode
+Aug  9 03:15:07 ubuntu1604 kernel: [  580.423128] br-daf4f41d3b1d: port 1(veth13eafd0) entered disabled state
+Aug  9 03:15:07 ubuntu1604 NetworkManager[679]: <info>  [1596957307.2098] device (veth6560e7e): driver 'veth' does not support carrier detection.
+Aug  9 03:15:07 ubuntu1604 NetworkManager[679]: <info>  [1596957307.2146] device (veth13eafd0): driver 'veth' does not support carrier detection.
+Aug  9 03:15:07 ubuntu1604 NetworkManager[679]: <info>  [1596957307.3178] devices removed (path: /sys/devices/virtual/net/veth13eafd0, iface: veth13eafd0)
+Aug  9 03:15:07 ubuntu1604 NetworkManager[679]: <info>  [1596957307.3216] devices added (path: /sys/devices/virtual/net/veth6560e7e, iface: veth6560e7e)
+Aug  9 03:15:07 ubuntu1604 NetworkManager[679]: <info>  [1596957307.3216] device added (path: /sys/devices/virtual/net/veth6560e7e, iface: veth6560e7e): no ifupdown configuration found.
+Aug  9 03:15:07 ubuntu1604 NetworkManager[679]: <info>  [1596957307.3438] devices removed (path: /sys/devices/virtual/net/veth6560e7e, iface: veth6560e7e)
+Aug  9 03:15:17 ubuntu1604 dbus[651]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Aug  9 03:15:17 ubuntu1604 systemd[1]: Starting Hostname Service...
+Aug  9 03:15:17 ubuntu1604 dbus[651]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Aug  9 03:15:17 ubuntu1604 systemd[1]: Started Hostname Service.
+Aug  9 03:15:17 ubuntu1604 org.gtk.vfs.Daemon[3641]: got no contact to IPC$
+Aug  9 03:15:17 ubuntu1604 org.gtk.vfs.Daemon[3641]: ** (gvfsd:3729): WARNING **: dbus_mount_reply: Error from org.gtk.vfs.Mountable.mount(): No se pudo recuperar la lista de carpetas compartidas del servidor: No existe el archivo o el directorio
+Aug  9 03:15:17 ubuntu1604 org.gtk.vfs.Daemon[3641]: ** (process:31138): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: La ubicación especificada no está montada
+Aug  9 03:15:17 ubuntu1604 org.gtk.vfs.Daemon[3641]: got no contact to IPC$
+Aug  9 03:15:17 ubuntu1604 org.gtk.vfs.Daemon[3641]: ** (gvfsd:3729): WARNING **: dbus_mount_reply: Error from org.gtk.vfs.Mountable.mount(): No se pudo recuperar la lista de carpetas compartidas del servidor: No existe el archivo o el directorio
+Aug  9 03:15:17 ubuntu1604 org.gtk.vfs.Daemon[3641]: ** (process:31156): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: La ubicación especificada no está montada
+Aug  9 03:15:18 ubuntu1604 org.gtk.vfs.Daemon[3641]: ** (process:31138): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: La ubicación especificada no está montada
+Aug  9 03:15:18 ubuntu1604 gnome-session[4317]: Nautilus-Share-Message: Called "net usershare info" but it failed: Falló al ejecutar el proceso hijo «net» (No existe el archivo o el directorio)
+Aug  9 03:15:59 ubuntu1604 NetworkManager[679]: <info>  [1596957359.2596] device (enp0s3): Lowering IPv6 MTU (2000) to match device MTU (1500)
+Aug  9 03:16:07 ubuntu1604 NetworkManager[679]: <warn>  [1596957367.2783] device (veth45d6ba3): failed to find device 44 'veth45d6ba3' with udev
+Aug  9 03:16:07 ubuntu1604 kernel: [  640.593321] br-daf4f41d3b1d: port 1(veth0deecae) entered blocking state
+Aug  9 03:16:07 ubuntu1604 kernel: [  640.593323] br-daf4f41d3b1d: port 1(veth0deecae) entered disabled state
+Aug  9 03:16:07 ubuntu1604 kernel: [  640.593403] device veth0deecae entered promiscuous mode
+Aug  9 03:16:07 ubuntu1604 kernel: [  640.594561] IPv6: ADDRCONF(NETDEV_UP): veth0deecae: link is not ready
+Aug  9 03:16:07 ubuntu1604 dockerd[1234]: time="2020-08-09T03:16:07.472762023-04:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug  9 03:16:07 ubuntu1604 dockerd[1234]: time="2020-08-09T03:16:07.472796577-04:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug  9 03:16:07 ubuntu1604 systemd-udevd[31331]: Could not generate persistent MAC address for veth45d6ba3: No such file or directory
+Aug  9 03:16:07 ubuntu1604 systemd-udevd[31332]: Could not generate persistent MAC address for veth0deecae: No such file or directory
+Aug  9 03:16:07 ubuntu1604 NetworkManager[679]: <info>  [1596957367.3774] manager: (veth45d6ba3): new Veth device (/org/freedesktop/NetworkManager/Devices/61)
+Aug  9 03:16:07 ubuntu1604 NetworkManager[679]: <warn>  [1596957367.3804] device (veth0deecae): failed to find device 45 'veth0deecae' with udev
+Aug  9 03:16:07 ubuntu1604 NetworkManager[679]: <info>  [1596957367.3817] manager: (veth0deecae): new Veth device (/org/freedesktop/NetworkManager/Devices/62)
+Aug  9 03:16:07 ubuntu1604 NetworkManager[679]: <info>  [1596957367.6290] devices added (path: /sys/devices/virtual/net/veth45d6ba3, iface: veth45d6ba3)
+Aug  9 03:16:07 ubuntu1604 NetworkManager[679]: <info>  [1596957367.6290] device added (path: /sys/devices/virtual/net/veth45d6ba3, iface: veth45d6ba3): no ifupdown configuration found.
+Aug  9 03:16:07 ubuntu1604 NetworkManager[679]: <info>  [1596957367.6664] devices added (path: /sys/devices/virtual/net/veth0deecae, iface: veth0deecae)
+Aug  9 03:16:07 ubuntu1604 NetworkManager[679]: <info>  [1596957367.6664] device added (path: /sys/devices/virtual/net/veth0deecae, iface: veth0deecae): no ifupdown configuration found.
+Aug  9 03:16:07 ubuntu1604 containerd[870]: time="2020-08-09T03:16:07.773757873-04:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/c0c3bd61093a57155e9960c431ab94159e07beb2fc449001dbbd16227d44a498/shim.sock" debug=false pid=31384
+Aug  9 03:16:08 ubuntu1604 NetworkManager[679]: <info>  [1596957368.7093] device (veth45d6ba3): driver 'veth' does not support carrier detection.
+Aug  9 03:16:08 ubuntu1604 kernel: [  641.940785] eth0: renamed from veth45d6ba3
+Aug  9 03:16:08 ubuntu1604 NetworkManager[679]: <info>  [1596957368.7238] device (veth0deecae): link connected
+Aug  9 03:16:08 ubuntu1604 kernel: [  641.948720] IPv6: ADDRCONF(NETDEV_CHANGE): veth0deecae: link becomes ready
+Aug  9 03:16:08 ubuntu1604 kernel: [  641.948767] br-daf4f41d3b1d: port 1(veth0deecae) entered blocking state
+Aug  9 03:16:08 ubuntu1604 kernel: [  641.948768] br-daf4f41d3b1d: port 1(veth0deecae) entered forwarding state
+Aug  9 03:16:08 ubuntu1604 NetworkManager[679]: <info>  [1596957368.7451] devices removed (path: /sys/devices/virtual/net/veth45d6ba3, iface: veth45d6ba3)
+Aug  9 03:16:09 ubuntu1604 containerd[870]: time="2020-08-09T03:16:09.194095886-04:00" level=info msg="shim reaped" id=c0c3bd61093a57155e9960c431ab94159e07beb2fc449001dbbd16227d44a498
+Aug  9 03:16:09 ubuntu1604 dockerd[1234]: time="2020-08-09T03:16:09.198095759-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug  9 03:16:09 ubuntu1604 kernel: [  642.552707] br-daf4f41d3b1d: port 1(veth0deecae) entered disabled state
+Aug  9 03:16:09 ubuntu1604 NetworkManager[679]: <info>  [1596957369.3276] device (veth0deecae): link disconnected
+Aug  9 03:16:09 ubuntu1604 kernel: [  642.557749] veth45d6ba3: renamed from eth0
+Aug  9 03:16:09 ubuntu1604 NetworkManager[679]: <warn>  [1596957369.3397] device (veth45d6ba3): failed to find device 44 'veth45d6ba3' with udev
+Aug  9 03:16:09 ubuntu1604 NetworkManager[679]: <info>  [1596957369.3415] manager: (veth45d6ba3): new Veth device (/org/freedesktop/NetworkManager/Devices/63)
+Aug  9 03:16:09 ubuntu1604 kernel: [  642.606188] br-daf4f41d3b1d: port 1(veth0deecae) entered disabled state
+Aug  9 03:16:09 ubuntu1604 kernel: [  642.608663] device veth0deecae left promiscuous mode
+Aug  9 03:16:09 ubuntu1604 kernel: [  642.608668] br-daf4f41d3b1d: port 1(veth0deecae) entered disabled state
+Aug  9 03:16:09 ubuntu1604 NetworkManager[679]: <info>  [1596957369.3911] device (veth45d6ba3): driver 'veth' does not support carrier detection.
+Aug  9 03:16:09 ubuntu1604 NetworkManager[679]: <info>  [1596957369.3996] device (veth0deecae): driver 'veth' does not support carrier detection.
+Aug  9 03:16:09 ubuntu1604 NetworkManager[679]: <info>  [1596957369.4804] devices added (path: /sys/devices/virtual/net/veth45d6ba3, iface: veth45d6ba3)
+Aug  9 03:16:09 ubuntu1604 NetworkManager[679]: <info>  [1596957369.4804] device added (path: /sys/devices/virtual/net/veth45d6ba3, iface: veth45d6ba3): no ifupdown configuration found.
+Aug  9 03:16:09 ubuntu1604 NetworkManager[679]: <info>  [1596957369.4893] devices removed (path: /sys/devices/virtual/net/veth0deecae, iface: veth0deecae)
+Aug  9 03:16:09 ubuntu1604 NetworkManager[679]: <info>  [1596957369.5011] devices removed (path: /sys/devices/virtual/net/veth45d6ba3, iface: veth45d6ba3)
+Aug  9 03:17:01 ubuntu1604 CRON[31661]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug  9 03:17:02 ubuntu1604 gnome-session[4317]: Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.

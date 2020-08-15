@@ -1,0 +1,10 @@
+[ENLACES]
+https://j2logo.com/python/tutorial/
+https://www.aprendeprogramando.es/cursos-online/Python
+https://www.w3schools.com/python/
+https://realpython.com/
+
+[LIBROS]
+Python para Pentesters
+Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers
+Black Hat Python

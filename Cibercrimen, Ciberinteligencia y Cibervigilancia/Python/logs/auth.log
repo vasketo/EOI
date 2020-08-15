@@ -1,0 +1,392 @@
+Aug  4 12:53:10 ubuntu1604 sshd[881]: Received signal 15; terminating.
+Aug  4 12:53:10 ubuntu1604 sshd[28251]: Server listening on 0.0.0.0 port 22.
+Aug  4 12:53:10 ubuntu1604 sshd[28251]: Server listening on :: port 22.
+Aug  4 12:55:44 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 12:55:46 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-key add -
+Aug  4 12:55:46 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 12:55:46 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 12:56:07 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/add-apt-repository deb http://minemeld-updates.panw.io/ubuntu xenial-minemeld main
+Aug  4 12:56:07 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 12:56:07 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 12:56:15 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Aug  4 12:56:15 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 12:56:34 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 12:56:37 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install -y nginx redis-server
+Aug  4 12:56:37 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 12:56:49 ubuntu1604 groupadd[597]: group added to /etc/group: name=redis, GID=129
+Aug  4 12:56:49 ubuntu1604 groupadd[597]: group added to /etc/gshadow: name=redis
+Aug  4 12:56:49 ubuntu1604 groupadd[597]: new group: name=redis, GID=129
+Aug  4 12:56:49 ubuntu1604 useradd[601]: new user: name=redis, UID=122, GID=129, home=/var/lib/redis, shell=/bin/false
+Aug  4 12:56:49 ubuntu1604 usermod[606]: change user 'redis' password
+Aug  4 12:56:49 ubuntu1604 chage[611]: changed password expiry for redis
+Aug  4 12:56:54 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 12:56:56 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install -o Dpkg::Options::=--force-overwrite -y minemeld
+Aug  4 12:56:56 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 12:57:12 ubuntu1604 groupadd[3906]: group added to /etc/group: name=minemeld, GID=130
+Aug  4 12:57:12 ubuntu1604 groupadd[3906]: group added to /etc/gshadow: name=minemeld
+Aug  4 12:57:12 ubuntu1604 groupadd[3906]: new group: name=minemeld, GID=130
+Aug  4 12:57:12 ubuntu1604 useradd[3910]: new user: name=minemeld, UID=123, GID=130, home=/home/minemeld, shell=/bin/false
+Aug  4 12:57:12 ubuntu1604 usermod[3915]: change user 'minemeld' password
+Aug  4 12:57:12 ubuntu1604 chage[3920]: changed password expiry for minemeld
+Aug  4 12:57:12 ubuntu1604 usermod[3923]: add 'minemeld' to group 'redis'
+Aug  4 12:57:12 ubuntu1604 usermod[3923]: add 'minemeld' to shadow group 'redis'
+Aug  4 12:58:25 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 12:58:28 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/shutdown -r now
+Aug  4 12:58:28 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 12:58:28 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 12:58:54 ubuntu1604 systemd-logind[657]: New seat seat0.
+Aug  4 12:58:54 ubuntu1604 systemd-logind[657]: Watching system buttons on /dev/input/event0 (Power Button)
+Aug  4 12:58:54 ubuntu1604 systemd-logind[657]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Aug  4 12:58:54 ubuntu1604 systemd-logind[657]: Watching system buttons on /dev/input/event3 (Video Bus)
+Aug  4 12:58:54 ubuntu1604 sshd[870]: Server listening on 0.0.0.0 port 22.
+Aug  4 12:58:54 ubuntu1604 sshd[870]: Server listening on :: port 22.
+Aug  4 12:58:56 ubuntu1604 sshd[870]: Received SIGHUP; restarting.
+Aug  4 12:58:56 ubuntu1604 sshd[870]: Server listening on 0.0.0.0 port 22.
+Aug  4 12:58:56 ubuntu1604 sshd[870]: Server listening on :: port 22.
+Aug  4 12:58:56 ubuntu1604 sshd[870]: Received SIGHUP; restarting.
+Aug  4 12:58:56 ubuntu1604 sshd[870]: Server listening on 0.0.0.0 port 22.
+Aug  4 12:58:56 ubuntu1604 sshd[870]: Server listening on :: port 22.
+Aug  4 12:59:01 ubuntu1604 useradd[1143]: failed adding user 'vboxadd', data deleted
+Aug  4 12:59:01 ubuntu1604 useradd[1144]: failed adding user 'vboxadd', data deleted
+Aug  4 12:59:03 ubuntu1604 lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug  4 12:59:03 ubuntu1604 lightdm: PAM adding faulty module: pam_kwallet.so
+Aug  4 12:59:03 ubuntu1604 lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug  4 12:59:03 ubuntu1604 lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug  4 12:59:03 ubuntu1604 lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Aug  4 12:59:03 ubuntu1604 systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Aug  4 12:59:03 ubuntu1604 systemd-logind[657]: New session c1 of user lightdm.
+Aug  4 12:59:04 ubuntu1604 lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug  4 12:59:04 ubuntu1604 lightdm: PAM adding faulty module: pam_kwallet.so
+Aug  4 12:59:04 ubuntu1604 lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug  4 12:59:04 ubuntu1604 lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug  4 12:59:04 ubuntu1604 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ubuntu"
+Aug  4 12:59:10 ubuntu1604 lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Aug  4 12:59:10 ubuntu1604 lightdm: pam_unix(lightdm:session): session opened for user ubuntu by (uid=0)
+Aug  4 12:59:10 ubuntu1604 systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Aug  4 12:59:10 ubuntu1604 systemd-logind[657]: New session c2 of user ubuntu.
+Aug  4 12:59:19 ubuntu1604 gnome-keyring-daemon[1531]: The Secret Service was already initialized
+Aug  4 12:59:20 ubuntu1604 gnome-keyring-daemon[1531]: The SSH agent was already initialized
+Aug  4 12:59:20 ubuntu1604 gnome-keyring-daemon[1531]: The PKCS#11 component was already initialized
+Aug  4 12:59:22 ubuntu1604 polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.82 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Aug  4 12:59:29 ubuntu1604 dbus[659]: [system] Failed to activate service 'org.bluez': timed out
+Aug  4 12:59:57 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/home/ubuntu ; USER=minemeld ; COMMAND=/opt/minemeld/engine/current/bin/supervisorctl -c /opt/minemeld/local/supervisor/config/supervisord.conf status
+Aug  4 12:59:57 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user minemeld by (uid=0)
+Aug  4 12:59:57 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user minemeld
+Aug  4 13:01:03 ubuntu1604 systemd-logind[657]: Removed session c1.
+Aug  4 13:01:37 ubuntu1604 polkit-agent-helper-1[3082]: pam_unix(polkit-1:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=ubuntu rhost=  user=ubuntu
+Aug  4 13:01:48 ubuntu1604 polkitd(authority=local): Operator of unix-session:c2 successfully authenticated as unix-user:ubuntu to gain TEMPORARY authorization for action org.debian.apt.install-or-remove-packages for system-bus-name::1.94 [/usr/bin/python3 /usr/bin/gnome-language-selector] (owned by unix-user:ubuntu)
+Aug  4 13:04:46 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/lsof -i -P -n
+Aug  4 13:04:46 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 13:04:46 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 13:17:01 ubuntu1604 CRON[5908]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug  4 13:17:01 ubuntu1604 CRON[5908]: pam_unix(cron:session): session closed for user root
+Aug  4 13:26:21 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Aug  4 13:26:21 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 13:29:00 ubuntu1604 useradd[9323]: new user: name=mongodb, UID=124, GID=65534, home=/home/mongodb, shell=/bin/false
+Aug  4 13:29:00 ubuntu1604 usermod[9328]: change user 'mongodb' password
+Aug  4 13:29:00 ubuntu1604 chage[9333]: changed password expiry for mongodb
+Aug  4 13:29:00 ubuntu1604 groupadd[9337]: group added to /etc/group: name=mongodb, GID=131
+Aug  4 13:29:00 ubuntu1604 groupadd[9337]: group added to /etc/gshadow: name=mongodb
+Aug  4 13:29:00 ubuntu1604 groupadd[9337]: new group: name=mongodb, GID=131
+Aug  4 13:29:00 ubuntu1604 gpasswd[9342]: user mongodb added by root to group mongodb
+Aug  4 13:30:10 ubuntu1604 useradd[10045]: new group: name=yeti, GID=1001
+Aug  4 13:30:10 ubuntu1604 useradd[10045]: new user: name=yeti, UID=1001, GID=1001, home=/home/yeti, shell=
+Aug  4 13:30:10 ubuntu1604 sudo:     root : TTY=pts/17 ; PWD=/opt/yeti ; USER=root ; COMMAND=/bin/mkdir /var/log/yeti
+Aug  4 13:30:10 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 13:30:10 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 13:30:10 ubuntu1604 sudo:     root : TTY=pts/17 ; PWD=/opt/yeti ; USER=root ; COMMAND=/bin/chown yeti /var/log/yeti
+Aug  4 13:30:10 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 13:30:10 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 13:30:24 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 13:32:19 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/lsof -i -P -n
+Aug  4 13:32:19 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 13:32:19 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 13:38:18 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/usr/share/nginx/html ; USER=root ; COMMAND=/usr/bin/lsof -i -P -n
+Aug  4 13:38:18 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 13:38:18 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 13:45:57 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/opt/yeti ; USER=root ; COMMAND=/usr/bin/pip install mongoengine
+Aug  4 13:45:57 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 13:45:58 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 13:47:34 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/home/ubuntu/Downloads/mongoengine ; USER=root ; COMMAND=/usr/bin/python setup.py install
+Aug  4 13:47:34 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 13:47:35 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 13:49:52 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/opt/yeti ; USER=root ; COMMAND=/usr/bin/apt install python3-pip python3-dnspython python3-psutil python3-redis python3-requests python3-termstyle python3-tz python3-dateutil
+Aug  4 13:49:52 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 13:50:20 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 13:50:27 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/opt/yeti ; USER=root ; COMMAND=/usr/bin/apt install redis-server
+Aug  4 13:50:27 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 13:50:30 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 13:50:54 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/opt/yeti ; USER=root ; COMMAND=/bin/bash
+Aug  4 13:50:54 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 13:51:18 ubuntu1604 useradd[11593]: new group: name=intelmq, GID=1002
+Aug  4 13:51:18 ubuntu1604 useradd[11593]: new user: name=intelmq, UID=1002, GID=1002, home=/opt/intelmq, shell=/bin/bash
+Aug  4 13:51:23 ubuntu1604 sudo:     root : TTY=pts/17 ; PWD=/root ; USER=root ; COMMAND=/usr/local/bin/intelmqsetup
+Aug  4 13:51:23 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 13:51:24 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 13:52:08 ubuntu1604 sudo:     root : TTY=pts/17 ; PWD=/root ; USER=root ; COMMAND=/usr/local/bin/pip install --upgrade pip
+Aug  4 13:52:08 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 13:52:09 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 13:52:45 ubuntu1604 sudo:     root : TTY=pts/17 ; PWD=/root ; USER=root ; COMMAND=/usr/local/bin/intelmqsetup
+Aug  4 13:52:45 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 13:52:46 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 13:54:36 ubuntu1604 sudo:     root : TTY=pts/17 ; PWD=/home/ubuntu/Documents/misp ; USER=root ; COMMAND=/usr/bin/git clone https://github.com/MISP/misp-docker
+Aug  4 13:54:36 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 13:54:43 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 13:55:28 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 13:56:04 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/apt install vim
+Aug  4 13:56:04 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 13:56:19 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 13:57:18 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/apt install docker-compose
+Aug  4 13:57:18 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 13:58:10 ubuntu1604 groupadd[14563]: group added to /etc/group: name=docker, GID=132
+Aug  4 13:58:10 ubuntu1604 groupadd[14563]: group added to /etc/gshadow: name=docker
+Aug  4 13:58:10 ubuntu1604 groupadd[14563]: new group: name=docker, GID=132
+Aug  4 13:58:15 ubuntu1604 sshd[870]: Received SIGHUP; restarting.
+Aug  4 13:58:15 ubuntu1604 sshd[870]: Server listening on 0.0.0.0 port 22.
+Aug  4 13:58:15 ubuntu1604 sshd[870]: Server listening on :: port 22.
+Aug  4 13:58:21 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:00:20 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/docker-compose up
+Aug  4 14:00:20 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:00:22 ubuntu1604 sshd[870]: Received SIGHUP; restarting.
+Aug  4 14:00:22 ubuntu1604 sshd[870]: Server listening on 0.0.0.0 port 22.
+Aug  4 14:00:22 ubuntu1604 sshd[870]: Server listening on :: port 22.
+Aug  4 14:01:50 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:02:22 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/docker-compose build
+Aug  4 14:02:22 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:02:23 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:03:58 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/lsof -i -P -n
+Aug  4 14:03:58 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:03:58 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:04:21 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/docker-compose build
+Aug  4 14:04:21 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:04:23 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:04:31 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/docker-compose up
+Aug  4 14:04:31 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:04:32 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:07:52 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/vim docker-compose-nginx.yml
+Aug  4 14:07:52 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:08:10 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:08:41 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/docker-compose build
+Aug  4 14:08:41 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:08:42 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:08:51 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/docker-compose up
+Aug  4 14:08:51 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:08:52 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:11:44 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/vim docker-compose-nginx.yml
+Aug  4 14:11:44 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:12:05 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:12:24 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/docker-compose build
+Aug  4 14:12:24 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:12:25 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:12:34 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/docker-compose up
+Aug  4 14:12:34 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:12:35 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:15:51 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/vim docker-compose-nginx.yml
+Aug  4 14:15:51 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:16:03 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:16:19 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/docker-compose build
+Aug  4 14:16:19 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:16:20 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:16:30 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/docker-compose up
+Aug  4 14:16:30 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:16:31 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:17:01 ubuntu1604 CRON[21610]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug  4 14:17:01 ubuntu1604 CRON[21610]: pam_unix(cron:session): session closed for user root
+Aug  4 14:18:16 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/lsof -i:80
+Aug  4 14:18:16 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:18:16 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:21:09 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp ; USER=root ; COMMAND=/bin/rm -rf misp-docker/
+Aug  4 14:21:09 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:21:09 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:21:24 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp ; USER=root ; COMMAND=/usr/bin/git clone https://github.com/MISP/misp-docker
+Aug  4 14:21:24 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:21:26 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:21:43 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/bin/cp template.env .env
+Aug  4 14:21:43 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:21:43 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:22:28 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/vim docker-compose-nginx.yml
+Aug  4 14:22:28 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:22:48 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:23:03 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/vim docker-compose.yml
+Aug  4 14:23:03 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:23:17 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:23:34 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/docker-compose build
+Aug  4 14:23:34 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:23:35 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:23:46 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/docker-compose up
+Aug  4 14:23:46 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:23:48 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:26:08 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/vim docker-compose.yml
+Aug  4 14:26:08 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:26:27 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:26:31 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/vim docker-compose-nginx.yml
+Aug  4 14:26:31 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:27:08 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:27:12 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/docker-compose up
+Aug  4 14:27:12 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:27:14 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:30:41 ubuntu1604 polkitd(authority=local): Registered Authentication Agent for unix-process:23544:551342 (system bus name :1.124 [/usr/bin/pkttyagent --notify-fd 4 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Aug  4 14:30:47 ubuntu1604 polkitd(authority=local): Operator of unix-session:c2 successfully authenticated as unix-user:ubuntu to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.125 [systemctl restart docker] (owned by unix-user:ubuntu)
+Aug  4 14:30:50 ubuntu1604 polkitd(authority=local): Unregistered Authentication Agent for unix-process:23544:551342 (system bus name :1.124, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Aug  4 14:30:54 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/docker-compose up
+Aug  4 14:30:54 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:30:56 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:31:38 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/docker-compose -f docker-compose-nginx.yml up
+Aug  4 14:31:38 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:32:07 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  4 14:33:04 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/misp/misp-docker ; USER=root ; COMMAND=/usr/bin/docker-compose up --build
+Aug  4 14:33:04 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  4 14:33:07 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  5 06:04:36 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/yeti/extras/docker/dev ; USER=root ; COMMAND=/usr/bin/docker-compose up
+Aug  5 06:04:37 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  5 06:04:37 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  5 06:04:46 ubuntu1604 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Aug  5 06:04:46 ubuntu1604 pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Aug  5 06:04:46 ubuntu1604 pkexec[29089]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Aug  5 06:06:59 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/yeti/extras/docker/dev ; USER=root ; COMMAND=/usr/bin/apt-get remove docker-compose
+Aug  5 06:06:59 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  5 06:07:15 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  5 06:07:18 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/yeti/extras/docker/dev ; USER=root ; COMMAND=/usr/bin/curl -L https://github.com/docker/compose/releases/download/1.23.2/docker-compose-Linux-x86_64 -o /usr/local/bin/docker-compose
+Aug  5 06:07:18 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  5 06:07:21 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  5 06:07:26 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/yeti/extras/docker/dev ; USER=root ; COMMAND=/bin/chmod +x /usr/local/bin/docker-compose
+Aug  5 06:07:26 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  5 06:07:26 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  5 06:07:34 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/yeti/extras/docker/dev ; USER=root ; COMMAND=/bin/ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+Aug  5 06:07:34 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  5 06:07:34 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  5 06:07:46 ubuntu1604 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Aug  5 06:07:46 ubuntu1604 pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Aug  5 06:07:46 ubuntu1604 pkexec[30519]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Aug  5 06:07:50 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/yeti/extras/docker/dev ; USER=root ; COMMAND=/usr/local/bin/docker-compose up
+Aug  5 06:07:50 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  5 06:07:51 ubuntu1604 sshd[870]: Received SIGHUP; restarting.
+Aug  5 06:07:51 ubuntu1604 sshd[870]: Server listening on 0.0.0.0 port 22.
+Aug  5 06:07:51 ubuntu1604 sshd[870]: Server listening on :: port 22.
+Aug  5 06:10:48 ubuntu1604 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Aug  5 06:10:48 ubuntu1604 pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Aug  5 06:10:48 ubuntu1604 pkexec[1256]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Aug  5 06:17:01 ubuntu1604 CRON[10515]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug  5 06:17:01 ubuntu1604 CRON[10515]: pam_unix(cron:session): session closed for user root
+Aug  5 06:22:27 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  5 06:24:13 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/yeti/extras/docker/dev ; USER=root ; COMMAND=/usr/local/bin/docker-compose -f docker-compose-full.yml up
+Aug  5 06:24:13 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  5 06:24:14 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  5 06:24:23 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/yeti/extras/docker/dev ; USER=root ; COMMAND=/usr/local/bin/docker-compose -f docker-compose.yaml up
+Aug  5 06:24:23 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  5 06:25:01 ubuntu1604 CRON[15311]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug  5 06:25:01 ubuntu1604 CRON[15311]: pam_unix(cron:session): session closed for user root
+Aug  5 06:32:47 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  5 06:34:55 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/yeti/extras/docker/dev ; USER=root ; COMMAND=/usr/bin/vim docker-compose.yaml
+Aug  5 06:34:55 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  5 06:35:10 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  5 06:35:12 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/yeti/extras/docker/dev ; USER=root ; COMMAND=/usr/local/bin/docker-compose -f docker-compose.yaml up
+Aug  5 06:35:12 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  5 07:09:23 ubuntu1604 compiz: gkr-pam: unlocked login keyring
+Aug  5 07:17:01 ubuntu1604 CRON[2196]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug  5 07:17:01 ubuntu1604 CRON[2196]: pam_unix(cron:session): session closed for user root
+Aug  5 07:27:10 ubuntu1604 compiz: gkr-pam: unlocked login keyring
+Aug  5 07:30:01 ubuntu1604 CRON[6405]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug  5 07:30:01 ubuntu1604 CRON[6405]: pam_unix(cron:session): session closed for user root
+Aug  5 07:36:40 ubuntu1604 compiz: gkr-pam: unlocked login keyring
+Aug  5 07:51:06 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  5 07:51:14 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/yeti/extras/docker/dev ; USER=root ; COMMAND=/usr/local/bin/docker-compose up
+Aug  5 07:51:14 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  5 08:17:02 ubuntu1604 CRON[27169]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug  5 08:17:02 ubuntu1604 CRON[27169]: pam_unix(cron:session): session closed for user root
+Aug  5 08:18:13 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  7 11:59:16 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents ; USER=root ; COMMAND=/usr/bin/git clone https://github.com/pwnlandia/mhn.git
+Aug  7 11:59:16 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  7 11:59:19 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  7 11:59:29 ubuntu1604 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/Documents/mhn ; USER=root ; COMMAND=./install.sh
+Aug  7 11:59:29 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  7 11:59:46 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  7 12:00:31 ubuntu1604 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.82, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Aug  7 12:00:32 ubuntu1604 systemd-logind[657]: System is rebooting.
+Aug  4 16:52:39 ubuntu1604 systemd-logind[675]: New seat seat0.
+Aug  4 16:52:39 ubuntu1604 systemd-logind[675]: Watching system buttons on /dev/input/event0 (Power Button)
+Aug  4 16:52:39 ubuntu1604 systemd-logind[675]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Aug  4 16:52:39 ubuntu1604 systemd-logind[675]: Watching system buttons on /dev/input/event3 (Video Bus)
+Aug  4 16:52:40 ubuntu1604 sshd[867]: Server listening on 0.0.0.0 port 22.
+Aug  4 16:52:40 ubuntu1604 sshd[867]: Server listening on :: port 22.
+Aug  4 16:52:44 ubuntu1604 sshd[867]: Received SIGHUP; restarting.
+Aug  4 16:52:44 ubuntu1604 sshd[867]: Server listening on 0.0.0.0 port 22.
+Aug  4 16:52:44 ubuntu1604 sshd[867]: Server listening on :: port 22.
+Aug  4 16:52:45 ubuntu1604 sshd[867]: Received SIGHUP; restarting.
+Aug  4 16:52:45 ubuntu1604 sshd[867]: Server listening on 0.0.0.0 port 22.
+Aug  4 16:52:45 ubuntu1604 sshd[867]: Server listening on :: port 22.
+Aug  4 16:52:52 ubuntu1604 sshd[867]: Received SIGHUP; restarting.
+Aug  4 16:52:52 ubuntu1604 sshd[867]: Server listening on 0.0.0.0 port 22.
+Aug  4 16:52:52 ubuntu1604 sshd[867]: Server listening on :: port 22.
+Aug  4 16:52:52 ubuntu1604 useradd[1710]: failed adding user 'vboxadd', data deleted
+Aug  4 16:52:52 ubuntu1604 useradd[1717]: failed adding user 'vboxadd', data deleted
+Aug  4 16:52:53 ubuntu1604 sshd[867]: Received SIGHUP; restarting.
+Aug  4 16:52:53 ubuntu1604 sshd[867]: Server listening on 0.0.0.0 port 22.
+Aug  4 16:52:53 ubuntu1604 sshd[867]: Server listening on :: port 22.
+Aug  4 16:52:53 ubuntu1604 sshd[867]: Received SIGHUP; restarting.
+Aug  4 16:52:53 ubuntu1604 sshd[867]: Server listening on 0.0.0.0 port 22.
+Aug  4 16:52:53 ubuntu1604 sshd[867]: Server listening on :: port 22.
+Aug  7 12:01:24 ubuntu1604 lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug  7 12:01:24 ubuntu1604 lightdm: PAM adding faulty module: pam_kwallet.so
+Aug  7 12:01:24 ubuntu1604 lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug  7 12:01:24 ubuntu1604 lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug  7 12:01:24 ubuntu1604 lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Aug  7 12:01:24 ubuntu1604 systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Aug  7 12:01:24 ubuntu1604 systemd-logind[675]: New session c1 of user lightdm.
+Aug  7 12:01:26 ubuntu1604 lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug  7 12:01:26 ubuntu1604 lightdm: PAM adding faulty module: pam_kwallet.so
+Aug  7 12:01:26 ubuntu1604 lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug  7 12:01:26 ubuntu1604 lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug  7 12:01:26 ubuntu1604 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ubuntu"
+Aug  7 12:01:30 ubuntu1604 lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Aug  7 12:01:30 ubuntu1604 lightdm: pam_unix(lightdm:session): session opened for user ubuntu by (uid=0)
+Aug  7 12:01:30 ubuntu1604 systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Aug  7 12:01:30 ubuntu1604 systemd-logind[675]: New session c2 of user ubuntu.
+Aug  7 12:01:43 ubuntu1604 gnome-keyring-daemon[3353]: The Secret Service was already initialized
+Aug  7 12:01:43 ubuntu1604 gnome-keyring-daemon[3353]: The SSH agent was already initialized
+Aug  7 12:01:43 ubuntu1604 gnome-keyring-daemon[3353]: The PKCS#11 component was already initialized
+Aug  7 12:01:45 ubuntu1604 polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.83 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale es_ES.UTF-8)
+Aug  7 12:01:51 ubuntu1604 dbus[651]: [system] Failed to activate service 'org.bluez': timed out
+Aug  7 12:02:32 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/home/ubuntu/Documents/mhn ; USER=root ; COMMAND=./install.sh
+Aug  7 12:02:32 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  7 12:03:15 ubuntu1604 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Aug  7 12:03:15 ubuntu1604 pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Aug  7 12:03:15 ubuntu1604 pkexec[7177]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Aug  7 12:03:24 ubuntu1604 systemd-logind[675]: Removed session c1.
+Aug  7 12:04:45 ubuntu1604 sudo:     root : TTY=pts/17 ; PWD=/home/ubuntu/Documents/mhn/scripts ; USER=root ; COMMAND=/usr/bin/apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
+Aug  7 12:04:45 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  7 12:04:46 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  7 12:04:46 ubuntu1604 sudo:     root : TTY=pts/17 ; PWD=/home/ubuntu/Documents/mhn/scripts ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/mongodb-org-3.6.list
+Aug  7 12:04:46 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  7 12:04:46 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  7 12:04:55 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  7 12:05:57 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/home/ubuntu/Documents/mhn ; USER=root ; COMMAND=/bin/systemctl unmask mongod
+Aug  7 12:05:57 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  7 12:05:57 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  7 12:06:03 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/home/ubuntu/Documents/mhn ; USER=root ; COMMAND=/usr/sbin/service mongod start
+Aug  7 12:06:03 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  7 12:06:04 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  7 12:06:06 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/home/ubuntu/Documents/mhn ; USER=root ; COMMAND=/usr/sbin/service mongod start
+Aug  7 12:06:06 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  7 12:06:07 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  7 12:06:10 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/home/ubuntu/Documents/mhn ; USER=root ; COMMAND=./install.sh
+Aug  7 12:06:10 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  7 12:06:49 ubuntu1604 sudo:     root : TTY=pts/17 ; PWD=/home/ubuntu/Documents/mhn/scripts ; USER=root ; COMMAND=/usr/bin/apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
+Aug  7 12:06:49 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  7 12:06:49 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  7 12:06:49 ubuntu1604 sudo:     root : TTY=pts/17 ; PWD=/home/ubuntu/Documents/mhn/scripts ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/mongodb-org-3.6.list
+Aug  7 12:06:49 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  7 12:06:49 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  7 12:07:30 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  7 12:07:34 ubuntu1604 polkitd(authority=local): Registered Authentication Agent for unix-process:27703:39325 (system bus name :1.119 [/usr/bin/pkttyagent --notify-fd 4 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale es_ES.UTF-8)
+Aug  7 12:07:45 ubuntu1604 polkitd(authority=local): Operator of unix-session:c2 successfully authenticated as unix-user:ubuntu to gain TEMPORARY authorization for action org.freedesktop.systemd1.reload-daemon for system-bus-name::1.120 [systemctl daemon-reload] (owned by unix-user:ubuntu)
+Aug  7 12:07:46 ubuntu1604 polkitd(authority=local): Unregistered Authentication Agent for unix-process:27703:39325 (system bus name :1.119, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale es_ES.UTF-8) (disconnected from bus)
+Aug  7 12:07:48 ubuntu1604 sudo:   ubuntu : TTY=pts/17 ; PWD=/home/ubuntu/Documents/mhn ; USER=root ; COMMAND=./install.sh
+Aug  7 12:07:48 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  7 12:08:14 ubuntu1604 sudo:     root : TTY=pts/17 ; PWD=/home/ubuntu/Documents/mhn/scripts ; USER=root ; COMMAND=/usr/bin/apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
+Aug  7 12:08:14 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  7 12:08:14 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  7 12:08:14 ubuntu1604 sudo:     root : TTY=pts/17 ; PWD=/home/ubuntu/Documents/mhn/scripts ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/mongodb-org-3.6.list
+Aug  7 12:08:14 ubuntu1604 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  7 12:08:14 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
+Aug  7 12:08:46 ubuntu1604 sudo: pam_unix(sudo:session): session closed for user root
